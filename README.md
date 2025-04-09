@@ -2,11 +2,12 @@
 
 This project is a mobile automation framework designed to execute end-to-end tests on an Android and iOS shopping app. The application files for both operating systems are included in the repository.
 
-## Tecnologies:
+## Technologies:
 - Appium
 - Java
 - POM
 - TestNG
+- Allure report
 
 ## Automated tests:
 - Add More Than 1 Product to Cart.
@@ -28,3 +29,4 @@ This project is a mobile automation framework designed to execute end-to-end tes
 - Clone the repo
 - Make sure an emulator or real device is running. Update the capabilities file accordingly.
 - run the automation tests with the next command according to the platform of the device:  mvn test -DsuiteXmlFile=src/test/resources/suites/testng.xml -Dplatform=android.
+- To generate the allure report run the command: allure generate allure-results --clean -o allure-report
