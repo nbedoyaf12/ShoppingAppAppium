@@ -3,7 +3,6 @@ package appTests;
 import app.pages.CartPage;
 import app.pages.CatalogPage;
 import app.pages.ProductDetailPage;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

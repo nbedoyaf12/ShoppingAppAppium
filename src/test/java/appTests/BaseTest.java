@@ -6,12 +6,15 @@ import com.google.gson.Gson;
 import io.appium.java_client.AppiumDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
+import utils.AllureListener;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.util.List;
 
+@Listeners(AllureListener.class)
 public class BaseTest {
 
     protected AppiumDriver driver;
