@@ -1,0 +1,42 @@
+[
+  {
+    "login": {
+      "username": "bob@example.com",
+      "password": "10203040"
+    },
+    "address": {
+      "fullName": "Bob Smith",
+      "address1": "123 Main St",
+      "address2": "123 Main St",
+      "city": "New York",
+      "zipCode": "00001",
+      "country": "US"
+    },
+    "card": {
+      "fullName": "Bob Smith",
+      "cardNumber": "4242424242424242",
+      "expirationDate": "12/26",
+      "securityCode": "123"
+    }
+  },
+  {
+    "login": {
+      "username": "user2",
+      "password": "pass2"
+    },
+    "address": {
+      "fullName": "User Dos",
+      "address1": "Carrera 2",
+      "address2": "Apto 202",
+      "city": "Ciudad B",
+      "zipCode": "00002",
+      "country": "País B"
+    },
+    "card": {
+      "fullName": "User Dos",
+      "cardNumber": "5555555555554444",
+      "expirationDate": "11/26",
+      "securityCode": "456"
+    }
+  }
+]
